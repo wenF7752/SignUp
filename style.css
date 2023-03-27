@@ -77,7 +77,7 @@ input {
 
 input:focus {
 
-    box-shadow: 0 0 8px 0 #007bff;
+    box-shadow: 0 0 5px 0 #007bff;
     border: none;
     outline: none;
 }
