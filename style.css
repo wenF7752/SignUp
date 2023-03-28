@@ -35,7 +35,7 @@ input[type="password"] {
 
 .btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -45,16 +45,11 @@ input[type="password"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
+    width: 100%;
+    border: 1px solid #ccc;
 }
 
-button {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-}
+
 
 .btn-primary {
     background-color: #1a7bc3;
