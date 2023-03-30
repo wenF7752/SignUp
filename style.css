@@ -1,11 +1,12 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    
 }
+
 .text-center {
     text-align: center;
 }
+
 form {
     width: 100%;
 }
@@ -15,41 +16,38 @@ input[type="email"],
 input[type="password"] {
     width: 100%;
     box-sizing: border-box;
+    padding: 0.625rem;
+    border: 0.063rem solid #ccc;
+    border-radius: 0.313rem;
 }
-
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     width: 100%;
 }
-
 
 .input-group {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 1.25rem;
 }
-
-
 
 .btn {
     display: inline-block;
-    padding: 10px;
-    font-size: 16px;
+    padding: 0.625rem;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     cursor: pointer;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 0.063rem solid #ccc;
 }
-
-
 
 .btn-primary {
     background-color: #1a7bc3;
@@ -59,16 +57,8 @@ input[type="password"] {
     background-color: #28a745;
 }
 
-input {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
 input:focus {
-
-    box-shadow: 0 0 5px 0 #007bff;
+    box-shadow: 0 0 0.313rem 0 #007bff;
     border: none;
     outline: none;
 }
@@ -76,27 +66,28 @@ input:focus {
 input::placeholder {
     color: #ccc;
 }
+
 .strong {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: aliceblue;
-    padding: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0.063rem;
+    padding-left: 0.313rem;
+    padding-right: 0.313rem;
     background-color: #1a7bc3;
-    border-radius: 5px;
+    border-radius: 0.313rem;
 }
 
 a {
     text-decoration: none;
     color: #1a7bc3;
 }
+
 .text-agree {
     width: 100%;
     font-weight: bold;
-    
 }
+
 .terms {
-    margin-left: 20;
-    
+    margin-left: 1.25rem;
 }
